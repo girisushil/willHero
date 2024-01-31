@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="8000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Play_Screen_Controller">
+   <children>
+      <ImageView fx:id="playarea" fitHeight="700.0" fitWidth="8000.0">
+         <image>
+            <Image url="@../IMAGES/Cool_Sky.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="246.0" fitWidth="250.0" layoutX="81.0" layoutY="364.0">
+         <image>
+            <Image url="@../IMAGES/island4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="326.0" fitWidth="280.0" layoutX="383.0" layoutY="358.0">
+         <image>
+            <Image url="@../IMAGES/island5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="284.0" fitWidth="438.0" layoutX="697.0" layoutY="355.0">
+         <image>
+            <Image url="@../IMAGES/island6.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="288.0" fitWidth="420.0" layoutX="1860.0" layoutY="333.0">
+         <image>
+            <Image url="@../IMAGES/island7.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="140.0" fitWidth="362.0" layoutX="1376.0" layoutY="463.0">
+         <image>
+            <Image url="@../IMAGES/island.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="243.0" fitWidth="153.0" layoutX="2423.0" layoutY="345.0">
+         <image>
+            <Image url="@../IMAGES/island1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="243.0" fitWidth="153.0" layoutX="2654.0" layoutY="345.0">
+         <image>
+            <Image url="@../IMAGES/island1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="283.0" fitWidth="380.0" layoutX="2931.0" layoutY="331.0">
+         <image>
+            <Image url="@../IMAGES/island7.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="253.0" fitWidth="186.0" layoutX="3544.0" layoutY="350.0">
+         <image>
+            <Image url="@../IMAGES/island_3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="447.0" fitWidth="433.0" layoutX="7212.0" layoutY="228.0">
+         <image>
+            <Image url="@../IMAGES/island_2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="429.0" fitWidth="356.0" layoutX="7645.0" layoutY="267.0">
+         <image>
+            <Image url="@../IMAGES/island7.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="falling_plat1" fitHeight="50.0" fitWidth="100.0" layoutX="3714.0" layoutY="439.0">
+         <image>
+            <Image url="@../IMAGES/fall_platform.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="falling_plat2" fitHeight="50.0" fitWidth="100.0" layoutX="3799.0" layoutY="438.0">
+         <image>
+            <Image url="@../IMAGES/fall_platform.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="falling_plat3" fitHeight="50.0" fitWidth="100.0" layoutX="3887.0" layoutY="438.0">
+         <image>
+            <Image url="@../IMAGES/fall_platform.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="falling_plat4" fitHeight="50.0" fitWidth="100.0" layoutX="3973.0" layoutY="438.0">
+         <image>
+            <Image url="@../IMAGES/fall_platform.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="188.0" fitWidth="344.0" layoutX="4148.0" layoutY="466.0">
+         <image>
+            <Image url="@../IMAGES/island.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="306.0" fitWidth="449.0" layoutX="4619.0" layoutY="328.0">
+         <image>
+            <Image url="@../IMAGES/island7.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="falling_plat5" fitHeight="50.0" fitWidth="100.0" layoutX="5064.0" layoutY="448.0">
+         <image>
+            <Image url="@../IMAGES/fall_platform.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="falling_plat6" fitHeight="50.0" fitWidth="100.0" layoutX="5148.0" layoutY="447.0">
+         <image>
+            <Image url="@../IMAGES/fall_platform.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="falling_plat7" fitHeight="50.0" fitWidth="100.0" layoutX="5234.0" layoutY="446.0">
+         <image>
+            <Image url="@../IMAGES/fall_platform.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="falling_plat8" fitHeight="50.0" fitWidth="100.0" layoutX="5316.0" layoutY="446.0">
+         <image>
+            <Image url="@../IMAGES/fall_platform.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="falling_plat9" fitHeight="50.0" fitWidth="100.0" layoutX="5400.0" layoutY="446.0">
+         <image>
+            <Image url="@../IMAGES/fall_platform.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="160.0" fitWidth="383.0" layoutX="5616.0" layoutY="465.0">
+         <image>
+            <Image url="@../IMAGES/island.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="134.0" fitWidth="59.0" layoutX="5669.0" layoutY="333.0">
+         <image>
+            <Image url="@../IMAGES/dead_sol_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="134.0" fitWidth="76.0" layoutX="5862.0" layoutY="335.0">
+         <image>
+            <Image url="@../IMAGES/dead_sol_2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="220.0" fitWidth="1107.0" layoutX="6009.0" layoutY="463.0">
+         <image>
+            <Image url="@../IMAGES/island.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="169.0" fitWidth="96.0" layoutX="6965.0" layoutY="296.0">
+         <image>
+            <Image url="@../IMAGES/dead_sol_3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="169.0" fitWidth="336.0" layoutX="21.0" layoutY="14.0">
+         <image>
+            <Image url="@../IMAGES/cloud2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="154.0" fitWidth="280.0" layoutX="697.0" layoutY="63.0">
+         <image>
+            <Image url="@../IMAGES/cloud3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="127.0" fitWidth="227.0" layoutX="523.0" layoutY="77.0">
+         <image>
+            <Image url="@../IMAGES/cloud1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="169.0" fitWidth="336.0" layoutX="1062.0" layoutY="148.0">
+         <image>
+            <Image url="@../IMAGES/cloud2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="169.0" fitWidth="336.0" layoutX="1577.0" layoutY="42.0">
+         <image>
+            <Image url="@../IMAGES/cloud2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="169.0" fitWidth="336.0" layoutX="2109.0" layoutY="69.0">
+         <image>
+            <Image url="@../IMAGES/cloud2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="188.0" fitWidth="402.0" layoutX="2586.0" layoutY="66.0">
+         <image>
+            <Image url="@../IMAGES/cloud1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="228.0" fitWidth="338.0" layoutX="2936.0" layoutY="33.0">
+         <image>
+            <Image url="@../IMAGES/cloud3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="210.0" fitWidth="411.0" layoutX="3456.0" layoutY="31.0">
+         <image>
+            <Image url="@../IMAGES/cloud2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="210.0" fitWidth="411.0" layoutX="4232.0" layoutY="-1.0">
+         <image>
+            <Image url="@../IMAGES/cloud2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="225.0" layoutX="4785.0" layoutY="203.0">
+         <image>
+            <Image url="@../IMAGES/cloud1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="200.0" layoutX="1492.0" layoutY="293.0">
+         <image>
+            <Image url="@../IMAGES/cloud3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="192.0" layoutX="2461.0" layoutY="285.0">
+         <image>
+            <Image url="@../IMAGES/cloud3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="200.0" layoutX="3303.0" layoutY="318.0">
+         <image>
+            <Image url="@../IMAGES/cloud3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="117.0" fitWidth="241.0" layoutX="4001.0" layoutY="221.0">
+         <image>
+            <Image url="@../IMAGES/cloud3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="200.0" layoutX="292.0" layoutY="244.0">
+         <image>
+            <Image url="@../IMAGES/cloud2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="210.0" fitWidth="411.0" layoutX="5426.0" layoutY="26.0">
+         <image>
+            <Image url="@../IMAGES/cloud2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="191.0" fitWidth="612.0" layoutX="6166.0">
+         <image>
+            <Image url="@../IMAGES/cloud2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gorc1" layoutX="1592.0" layoutY="374.0">
+         <image>
+            <Image url="@../IMAGES/green_orc.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="weapon_chest1" fitHeight="63.0" fitWidth="98.0" layoutX="2147.0" layoutY="406.0">
+         <image>
+            <Image url="@../IMAGES/weapon_chest.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rorc2" layoutX="2684.0" layoutY="418.0">
+         <image>
+            <Image url="@../IMAGES/red_orc.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rorc3" layoutX="3031.0" layoutY="409.0">
+         <image>
+            <Image url="@../IMAGES/red_orc.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rorc4" layoutX="3121.0" layoutY="412.0">
+         <image>
+            <Image url="@../IMAGES/red_orc.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="weapon_chest2" fitHeight="68.0" fitWidth="101.0" layoutX="3611.0" layoutY="402.0">
+         <image>
+            <Image url="@../IMAGES/weapon_chest.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gorc2" fitHeight="59.0" fitWidth="64.0" layoutX="3801.0" layoutY="401.0">
+         <image>
+            <Image url="@../IMAGES/green_orc.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gorc3" fitHeight="59.0" fitWidth="64.0" layoutX="3906.0" layoutY="400.0">
+         <image>
+            <Image url="@../IMAGES/green_orc.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gorc4" fitHeight="59.0" fitWidth="64.0" layoutX="4200.0" layoutY="418.0">
+         <image>
+            <Image url="@../IMAGES/green_orc.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gorc5" fitHeight="59.0" fitWidth="64.0" layoutX="4264.0" layoutY="416.0">
+         <image>
+            <Image url="@../IMAGES/green_orc.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rorc1" layoutX="1998.0" layoutY="414.0">
+         <image>
+            <Image url="@../IMAGES/red_orc.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rorc5" layoutX="4346.0" layoutY="418.0">
+         <image>
+            <Image url="@../IMAGES/red_orc.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rorc6" layoutX="4411.0" layoutY="416.0">
+         <image>
+            <Image url="@../IMAGES/red_orc.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rorc7" layoutX="4862.0" layoutY="416.0">
+         <image>
+            <Image url="@../IMAGES/red_orc.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rorc8" layoutX="4972.0" layoutY="418.0">
+         <image>
+            <Image url="@../IMAGES/red_orc.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="boss_orc" fitHeight="200.0" fitWidth="192.0" layoutX="6191.0" layoutY="260.0">
+         <image>
+            <Image url="@../IMAGES/boss.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hero_playscreen" fitHeight="50.0" fitWidth="71.0" layoutX="206.0" layoutY="422.0">
+         <image>
+            <Image url="@../IMAGES/penguin_hero.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="island1" fitHeight="5.0" fitWidth="250.0" layoutX="81.0" layoutY="466.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="island2" fitHeight="5.0" fitWidth="280.0" layoutX="383.0" layoutY="466.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="island3" fitHeight="5.0" fitWidth="438.0" layoutX="697.0" layoutY="466.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="island4" fitHeight="5.0" fitWidth="350.0" layoutX="1382.0" layoutY="466.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="island5" fitHeight="5.0" fitWidth="402.0" layoutX="1869.0" layoutY="466.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="island8" fitHeight="5.0" fitWidth="369.0" layoutX="2936.0" layoutY="461.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="island9" fitHeight="5.0" fitWidth="163.0" layoutX="3556.0" layoutY="465.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="island10" fitHeight="5.0" fitWidth="338.0" layoutX="4151.0" layoutY="470.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="island11" fitHeight="5.0" fitWidth="433.0" layoutX="4635.0" layoutY="466.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="island12" fitHeight="5.0" fitWidth="1500.0" layoutX="5616.0" layoutY="466.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="island13" fitHeight="5.0" fitWidth="776.0" layoutX="7212.0" layoutY="466.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="pause_button" layoutX="14.0" layoutY="9.0" mnemonicParsing="false" onAction="#loadPauseMenu" prefHeight="22.0" prefWidth="59.0" text="||" textFill="#651919">
+         <font>
+            <Font name="System Bold Italic" size="35.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="abyss1" fitHeight="361.0" fitWidth="234.0" layoutX="1133.0" layoutY="328.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="abyss2" fitHeight="447.0" fitWidth="107.0" layoutX="1748.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="abyss3" fitHeight="440.0" fitWidth="144.0" layoutX="2280.0" layoutY="243.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="abyss4" fitHeight="423.0" fitWidth="122.0" layoutX="2808.0" layoutY="261.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="abyss5" fitHeight="447.0" fitWidth="200.0" layoutX="3329.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="abyss6" fitHeight="465.0" fitWidth="128.0" layoutX="4501.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="abyss7" fitHeight="465.0" fitWidth="107.0" layoutX="5498.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="island6" fitHeight="5.0" fitWidth="134.0" layoutX="2433.0" layoutY="464.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="island7" fitHeight="5.0" fitWidth="134.0" layoutX="2653.0" layoutY="466.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="CoinCountLabel" layoutX="21.0" layoutY="160.0" text="CoinCount" />
+     
+   </children>
+</AnchorPane>
